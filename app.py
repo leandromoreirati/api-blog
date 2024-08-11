@@ -1,6 +1,6 @@
 # Flask - Micro framework para criação de API'S
 from flask import Flask, jsonify, request, make_response
-from database import Autor, Postagem, app, db
+from database_nuven import Autor, Postagem, app, db
 import json
 import jwt
 from datetime import datetime, timedelta
